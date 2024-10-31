@@ -3,5 +3,7 @@ public class Main {
         ShapeFactory obj = new ShapeFactory();
         Shape shapeObj = obj.getShape("CIRCLE");
         shapeObj.draw();
+        shapeObj = obj.getShape("RECTANGLE");
+        shapeObj.draw();
     }
 }
